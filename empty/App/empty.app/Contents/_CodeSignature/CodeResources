@@ -12,6 +12,10 @@
 		<data>
 		W1Y0OVbiSDr4IptVZy9jP7YXDf0=
 		</data>
+		<key>Resources/engine/PixelMplus10-Regular.ttf</key>
+		<data>
+		VWyXg0dtIAqiWLfHjRNNLo02dp0=
+		</data>
 		<key>Resources/engine/bgm.mp3</key>
 		<data>
 		LE/7EYbUsAyate+xR867h0nYSrQ=
@@ -92,6 +96,10 @@
 		<data>
 		Xvm+3R5yPoEtAPEupYV5TfVqVkA=
 		</data>
+		<key>Resources/engine/notice.mp3</key>
+		<data>
+		HJHQnXs6ZJov2GFZnflCpP1x05w=
+		</data>
 		<key>Resources/engine/objdetect/haarcascade/eye.xml.zstdcmp</key>
 		<data>
 		TKAtXyhUC4vPewdk8nLKEu8e3Dk=
@@ -156,6 +164,10 @@
 		<data>
 		3jD1ZNhwDmoUqel6Kh1OEQdsBrM=
 		</data>
+		<key>Resources/engine/sphe.mp3</key>
+		<data>
+		HZx1w6fSZRoUuuDYKo1YmyoXajI=
+		</data>
 		<key>Resources/engine/texture/box-shadow/128.png</key>
 		<data>
 		NcCSVm3qTMQ8zhWxVXxv6HghTDE=
@@ -180,9 +192,25 @@
 		<data>
 		6IJZ9Rw8BG6FYkLGQwondSdZMMU=
 		</data>
+		<key>Resources/ganariya_2.png</key>
+		<data>
+		BcExQnGobtKS3ZoC33XdqR2Z4go=
+		</data>
 		<key>Resources/icon.icns</key>
 		<data>
 		Gmbos2zby9Teu/Tx1XlWaWqxVyY=
+		</data>
+		<key>Resources/notice.mp3</key>
+		<data>
+		HJHQnXs6ZJov2GFZnflCpP1x05w=
+		</data>
+		<key>Resources/sans.mp3</key>
+		<data>
+		70MGFArIEbu0Ls/j7hxkW3DEbGs=
+		</data>
+		<key>Resources/sphe.mp3</key>
+		<data>
+		HZx1w6fSZRoUuuDYKo1YmyoXajI=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -199,6 +227,13 @@
 			<key>hash2</key>
 			<data>
 			qlaWmy+wgxduS942DYAZ6HqHwvojVKUADCH+Xq4CS6U=
+			</data>
+		</dict>
+		<key>Resources/engine/PixelMplus10-Regular.ttf</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			AbXkrqWju+gEY8F454aNWjTNdejte8TZcJfrsaca98c=
 			</data>
 		</dict>
 		<key>Resources/engine/bgm.mp3</key>
@@ -341,6 +376,13 @@
 			UsAHJJt0dddJknsBdn5Tvgt+5DfXmwpc5ceW1gzDSgE=
 			</data>
 		</dict>
+		<key>Resources/engine/notice.mp3</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			R9QgVstCmFKdpQSebAB4xcBeaFS4BcXp++EIfF1qMuI=
+			</data>
+		</dict>
 		<key>Resources/engine/objdetect/haarcascade/eye.xml.zstdcmp</key>
 		<dict>
 			<key>hash2</key>
@@ -453,6 +495,13 @@
 			tMsHwQP/O4SWT5Q0kqfSHYf4DsB2/v7nP1hUKA2hXik=
 			</data>
 		</dict>
+		<key>Resources/engine/sphe.mp3</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			0hBlV3yhnWNEWeORdhJQmNEzI91IALpPjhsnoMj7tDQ=
+			</data>
+		</dict>
 		<key>Resources/engine/texture/box-shadow/128.png</key>
 		<dict>
 			<key>hash2</key>
@@ -495,11 +544,39 @@
 			wFu7UaKiZIlpNDRQkpdz/3r0a4LizIxiHuNcDb8wuS8=
 			</data>
 		</dict>
+		<key>Resources/ganariya_2.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			jB+vvQAnbJGUZevDroN/lglgSa15pZkEEmWjRgPX+HI=
+			</data>
+		</dict>
 		<key>Resources/icon.icns</key>
 		<dict>
 			<key>hash2</key>
 			<data>
 			PZ20YfQp58+tgOOc0iLYjvKHrSm2wsng14rmB/kZFSY=
+			</data>
+		</dict>
+		<key>Resources/notice.mp3</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			R9QgVstCmFKdpQSebAB4xcBeaFS4BcXp++EIfF1qMuI=
+			</data>
+		</dict>
+		<key>Resources/sans.mp3</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			A1+kxRNzn4LopYcR50LBLRpARhJCO63BQvCYeMnztkk=
+			</data>
+		</dict>
+		<key>Resources/sphe.mp3</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			0hBlV3yhnWNEWeORdhJQmNEzI91IALpPjhsnoMj7tDQ=
 			</data>
 		</dict>
 	</dict>

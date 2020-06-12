@@ -13,7 +13,7 @@
 
 using namespace std;
 
-class BoidsSpell: MagicSpell{
+class BoidsSpell: public MagicSpell{
     
     class Boid{
         
@@ -151,7 +151,8 @@ class BoidsSpell: MagicSpell{
 private:
     
     const int NUM_OF_BIRDS = 40;
-
+    double finish_time = 4;
+    
     Array<Boid> boids;
     
 public:
@@ -165,6 +166,10 @@ public:
     void update(Player &player) {
         for(auto &boid: boids){
             boid.update(boids, player);
+        }
+        
+        if(watch.sF() >= finish_time){
+            is_finish = true;
         }
     }
     

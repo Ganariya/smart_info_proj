@@ -85,6 +85,9 @@ public:
         if(KeyD.pressed()){
             vec += Vec2(speed, 0);
         }
+        if(MouseR.pressed()){
+            vec /= 2;
+        }
         pos += vec;
     }
     

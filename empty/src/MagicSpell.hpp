@@ -14,12 +14,17 @@
 
 class MagicSpell{
     
-private:
+public:
+      bool is_finish;
+    
+protected:
     Stopwatch watch;
+  
     
 public:
     
     MagicSpell(){
+        is_finish = false;
         watch.start();
     }
     
