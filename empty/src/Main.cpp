@@ -41,7 +41,7 @@ void Main()
     const Audio notice(Resource(U"notice.mp3"));
     
     audio.setVolume(0.3);
-    audio.play();
+    
     notice.setPosSec(0.7);
     
     setup();
@@ -49,10 +49,29 @@ void Main()
 //    unique_ptr<MagicSpell> spell(new LifeGameSpell());
     unique_ptr<MagicSpell> spell(new TextSpell());
     
+    audio.play();
+
     Player player;
     
+    Stopwatch watch;
+    watch.start();
     
+    
+    bool wait=  true;
     while(System::Update()){
+        
+//        if(MouseL.down() and wait){
+//            wait = false;
+//            audio.play();
+//        }
+//        if(wait) continue;
+        
+//        if(watch.ms() <= 20000){
+//            continue;
+//        }else{
+//            if(!audio.isPlaying())
+//                audio.play();
+//        }
         update_audio(audio);
         player.update();
         spell->update(player);
